@@ -8,7 +8,7 @@ author = "jtviegas"
 author-email = "jtviegas.js@gmail.com"
 home-page = "https://github.com/jtviegas/configuration-overrider-airflow-env"
 description-file = "README.md"
-dist-name = "configuration-resolver"
+dist-name = "configuration-overrider-airflow-env"
 requires-python = ">=3.7"
 requires = ["configuration-overrider==0.0.3",]
 classifiers = [ "Programming Language :: Python :: 3.7", ]
