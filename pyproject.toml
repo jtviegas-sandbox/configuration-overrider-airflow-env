@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "configuration_overrider_airflow_env"
+author = "jtviegas"
+author-email = "jtviegas.js@gmail.com"
+home-page = "https://github.com/jtviegas/configuration-overrider-airflow-env"
+description-file = "README.md"
+dist-name = "configuration-resolver"
+requires-python = ">=3.7"
+requires = ["configuration-overrider==0.0.3",]
+classifiers = [ "Programming Language :: Python :: 3.7", ]
+[tool.flit.metadata.requires-extra]
+test = [ "pytest >=6.1.2", ]
