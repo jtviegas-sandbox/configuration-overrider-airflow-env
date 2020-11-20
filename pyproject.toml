@@ -3,7 +3,7 @@ requires = ["flit_core >=2,<4"]
 build-backend = "flit_core.buildapi"
 
 [tool.flit.metadata]
-module = "configuration_resolver"
+module = "configuration_overrider_airflow_env"
 author = "jtviegas"
 author-email = "jtviegas.js@gmail.com"
 home-page = "https://github.com/jtviegas/configuration-overrider-airflow-env"
